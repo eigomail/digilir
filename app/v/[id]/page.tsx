@@ -165,9 +165,6 @@ export default async function Video({ params }: PageProps) {
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
-<Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
-<ins id="1062017" data-width="300" data-height="262"/>
-<Script data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1062017});</Script>
             <SearchCardList query={file.title.split(" ")[2]} />
 <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </div>
