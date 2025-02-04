@@ -40,7 +40,7 @@ export async function generateMetadata(
     }
 
     const file = data.result[0];
-    const title = `${file.title} - ${SITENAME}`;
+    const title = `${file.title}`;
     const description = `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`;
     const image = file.splash_img;
     const previousOgImages = (await parent).openGraph?.images || [];
@@ -85,7 +85,7 @@ export default async function Video({ params }: PageProps) {
         const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: `${file.title} - ${SITENAME}`,
+        headline: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
         url: `https://gilirsmp.pages.dev/v/${file.filecode}`,
@@ -126,7 +126,6 @@ export default async function Video({ params }: PageProps) {
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10" itemProp="video" itemScope itemType="http://schema.org/VideoObject">
 <meta itemProp="author" content="admin" />
 <meta itemProp="name" content={`${file.title}`} />
-<meta itemProp="description" content={`${file.title}`} />
 <meta itemProp="description" content={`${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`} />
 <meta itemProp="duration" content="P0DT0H8M43S" />
 <meta itemProp="thumbnailUrl" content={`${file.splash_img}`} />
