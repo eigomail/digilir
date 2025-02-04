@@ -7,7 +7,7 @@ import { SITENAME } from "@/lib/constants";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
+    title: `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
     description: `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
     metadataBase: new URL("https://gilirsmp.pages.dev"),
     alternates: {
